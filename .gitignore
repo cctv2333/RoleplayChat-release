@@ -1,0 +1,22 @@
+# RoleplayChat 公开下载仓库
+# 本仓库只存放 README、截图、安装包 Release —— 绝不放源代码。
+
+# 忽略所有可能的本地敏感文件
+*.env
+.env
+*_token.tmp
+*.token
+*.secret
+*.key
+*.pem
+config.json
+
+# 本地构建产物
+build/
+node_modules/
+dist/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
