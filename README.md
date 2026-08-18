@@ -8,7 +8,7 @@
 
 RoleplayChat 是一款轻量级 Windows 原生桌面应用，用于沉浸式 AI 角色扮演与文字冒险。自带任意 OpenAI 兼容 API Key（DeepSeek、OpenAI、Kimi、通义千问、智谱 GLM、Ollama 本地…），创建角色、导入 SillyTavern 世界书与角色卡即可开玩。
 
-**技术栈**：Go（Wails v2）+ Angular + SQLite · **当前版本**：v0.10.3
+**技术栈**：Go（Wails v2）+ Angular + SQLite · **当前版本**：v0.10.4
 
 ## 截图
 
@@ -34,6 +34,7 @@ RoleplayChat 是一款轻量级 Windows 原生桌面应用，用于沉浸式 AI 
 
 - **角色**：自定义人设 / 系统提示词 / 开场白；SillyTavern 角色卡 V2/V3 导入导出（JSON / PNG）；头像（emoji 或本地图片）。
 - **世界书**：分组分类、8 种插入位置、常驻 / 关键词 / 正则 / 可选过滤触发、完整 SillyTavern 字段映射。
+- **预设兼容**：直接导入 SillyTavern 预设（TGbreak、夏瑾等），支持其中的正则脚本引擎与变量系统（{{setvar::}} / {{getvar::}} / {{random::}}），可逐个开关脚本。
 - **流式输出**：打字机逐字渲染、停止与重新生成、实时思考链展示。
 - **记忆系统**：AI 维护结构化记忆表格，长对话自动压缩为剧情摘要，本地消息永不被删除。
 - **工作模式**：AI 工作助手会话，独立于角色模式；联网搜索、自定义系统提示词、会话导出。
