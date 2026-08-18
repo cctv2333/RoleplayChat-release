@@ -42,6 +42,9 @@ RoleplayChat 是一款轻量级 Windows 原生桌面应用，用于沉浸式 AI 
 
 ## 常见问题
 
+- **360 报毒（HEUR/QVM202...）怎么办？** 这是误报——见 [FAQ：360 报毒说明](FAQS_360_FALSE_POSITIVE.md)。一句话：软件完全开源，代码全部公开，安装包未签名 + NSIS 安装器特性容易被启发式引擎误判；按 FAQ 在 360 里添加信任即可，或提交官方申诉（fuwu.360.cn/shensu）。
+
+
 - **API Key 存在哪里？** 配置文件位于 `C:\ProgramData\RoleplayChat\config.json`，Key 使用 Windows DPAPI 加密存储（绑定当前系统账号），卸载后数据默认保留。
 - **如何更新？** 到 Releases 页面下载新版本安装包，覆盖安装即可，聊天记录与设置自动保留。
 
