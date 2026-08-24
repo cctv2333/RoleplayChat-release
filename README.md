@@ -8,7 +8,7 @@
 
 RoleplayChat 是一款轻量级 Windows 原生桌面应用，用于沉浸式 AI 角色扮演与文字冒险。自带任意 OpenAI 兼容 API Key（DeepSeek、OpenAI、Kimi、通义千问、智谱 GLM、Ollama 本地…），创建角色、导入 SillyTavern 世界书与角色卡即可开玩。
 
-**技术栈**：Go（Wails v2）+ Angular + SQLite · **当前版本**：v0.13.3-beta
+**技术栈**：Go（Wails v2）+ Angular + SQLite · **当前版本**：v0.13.4-beta
 
 ## 截图
 
@@ -40,6 +40,7 @@ RoleplayChat 是一款轻量级 Windows 原生桌面应用，用于沉浸式 AI 
 - **工作模式**：AI 工作助手会话，独立于角色模式；分步 agent 工作流（思考块→工具卡→结果，可折叠）、联网搜索（Bing+360 双源）、自定义系统提示词、会话导出。
 - **Agent 工具链**：文件读写/编辑、命令执行（沙箱）、网页抓取、文档解析、**html2pdf**（Edge 无头转 PDF）、**download_file**（素材下载）、**html_check**（HTML 规范自查：打印断页/表格表头/绝对定位/外部资源）。
 - **复杂任务能力**：数据收集→图表（SVG）→多页 PDF 报告全链路（实测可生成经济分析报告、宣传海报等），上下文预算跟随配置、工具失败熔断与反思。
+- **复杂项目实测**：AI 从零构建 Minecraft 光影包（SummerSunset_v6）——学习公开教程（Iris 开发文档）→ GLSL 330 完整管线（gbuffers/composite/final）→ 水面反射 SSR / Fresnel / ACES 色调映射 / PCF 阴影 → 静态审计 + 真机反馈迭代，全程自主执行 100+ 次工具调用零中断，证明工具可扛复杂长任务。
 - **界面**：深色/浅色主题、角色头像、三语言（简体中文 / English / Русский）。
 
 ## 常见问题
