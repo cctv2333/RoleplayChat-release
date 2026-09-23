@@ -8,7 +8,7 @@
 
 RoleplayChat 是一款轻量级 Windows 原生桌面应用，用于沉浸式 AI 角色扮演与文字冒险。自带任意 OpenAI 兼容 API Key（DeepSeek、OpenAI、Kimi、通义千问、智谱 GLM、Ollama 本地…），创建角色、导入 SillyTavern 世界书与角色卡即可开玩。
 
-**技术栈**：Go（Wails v2）+ Angular + SQLite · **当前版本**：v0.13.4-beta
+**技术栈**：Go（Wails v2）+ Angular + SQLite · **当前版本**：v0.14.0
 
 ## 截图
 
@@ -45,7 +45,7 @@ RoleplayChat 是一款轻量级 Windows 原生桌面应用，用于沉浸式 AI 
 
 ## 常见问题
 
-- **360 报毒（HEUR/QVM202...）怎么办？** 这是误报——见 [FAQ：360 报毒说明](FAQS_360_FALSE_POSITIVE.md)。一句话：软件完全开源，代码全部公开，安装包未签名 + NSIS 安装器特性容易被启发式引擎误判；按 FAQ 在 360 里添加信任即可，或提交官方申诉（fuwu.360.cn/shensu）。
+- **360 报毒（HEUR/QVM202...）怎么办？** 这是误报——见 [FAQ：360 报毒说明](FAQS_360_FALSE_POSITIVE.md)。一句话：软件完全免费（源码仓库因安全考虑暂为私有），安装包未签名 + NSIS 安装器特性容易被启发式引擎误判；按 FAQ 在 360 里添加信任即可，或提交官方申诉（fuwu.360.cn/shensu）。
 
 
 - **API Key 存在哪里？** 配置文件位于 `C:\ProgramData\RoleplayChat\config.json`，Key 使用 Windows DPAPI 加密存储（绑定当前系统账号），卸载后数据默认保留。
