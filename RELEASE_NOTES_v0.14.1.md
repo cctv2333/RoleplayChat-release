@@ -1,8 +1,8 @@
 # RoleplayChat v0.14.1 更新说明
 
 > 发布日期：2026-10-03　|　上一安装包：v0.14.0（2026-09-24）
-> 安装包：`roleplay-chat-amd64-installer.exe`（15.2 MB，15,205,262 字节）
-> **SHA256**：`62C6660219A5E16F33ABA584CA6592B72FEF57112997C3E7CB4E6CCFAC5C879D`
+> 安装包：`roleplay-chat-amd64-installer.exe`（15.2 MB，15,205,270 字节）
+> **SHA256**：`F7AF294E482C86AD0A0F0080DC31D6E600F1BFD85C7B6BDB7628DA8DAF2409CF`
 > 数据与设置沿用原目录（`C:\ProgramData\RoleplayChat`），可直接覆盖安装。
 
 本次是**修 bug + 打磨工具链**的小版本，**不改数据格式**，可直接覆盖安装。
@@ -46,6 +46,7 @@
 
 ## 六、修复的问题
 
+- **软件内显示的版本号**（标题栏与「关于」）此前停在 v0.14.0 —— 现已与安装包版本统一为 v0.14.1。
 - **新消息沿用上一轮的"思考 300s"** —— 每轮现在从 0 开始计时。
 - **工具图标与工具对不上** —— 补齐 SVG 图标（`excel_write` / `html2pdf` / `html_check` / `download_file` / `install_software` / `check_installed` / `skill_load` 等，此前全落到同一个"扳手"图标）。
 - **切换工作会话后角色仍高亮**（"两个按钮都亮"）—— 已同步。
